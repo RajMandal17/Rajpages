@@ -70,7 +70,7 @@ class Paper {
       this.rotating = false;
     });
 
- 
+    // For two-finger rotation on touch screens
     paper.addEventListener('gesturestart', (e) => {
       e.preventDefault();
       this.rotating = true;
